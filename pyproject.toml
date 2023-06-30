@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "notebooks"
+version = "0.1.0"
+description = "Study notebooks"
+authors = ["Luiz Mugnaini <luizmugnaini@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.0"
+matplotlib = "^3.7.1"
+ipykernel = "^6.23.3"
+polars = "^0.18.4"
+jupyterlab-lsp = "^4.2.0"
+scikit-learn = "^1.2.2"
+jupyter-black = "^0.3.4"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
